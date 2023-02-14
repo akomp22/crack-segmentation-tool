@@ -13,4 +13,14 @@ The tool can be used in two ways.
  - As python functions (see file Examples.ipynb)
 
 ## App tuturial
+
+### Start the tool
+1. Clone the repository or download archive and unzip it on your local machine. Run the app.py python script
+
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2012.20.46.gif)
+
+2. Enter path to a folder that contain images you want to segment. Press "Start"
+![]([https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2012.20.46.gif](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2013.11.57.gif))
+
+3. Press "Select Crack End-Points" to open window for point selection. Adjust Adjust "Image size" to fit the selection window fit in your screen. Use the mouse wheel to zoom in/out around current cursor position (to drag image use sequentially zoom in/out and move cursor). To c
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2013.36.56.gif)
