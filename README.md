@@ -24,7 +24,7 @@ The app designed to segment images from a specific folder. After segmentation JS
 1. Enter path to a folder that contain images you want to segment. 
 2. Press "Start"
 3. If at anny time during segmentation you decide to skip the image press "Skip" button. The empty annotation file will be saved.
-![]([https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2012.20.46.gif](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2013.11.57.gif))
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2012.20.46.gif](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2013.11.57.gif)
 
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
