@@ -13,3 +13,4 @@ The tool can be used in two ways.
  - As python functions (see file Examples.ipynb)
 
 ## App tuturial
+https://github.com/akomp22/crack-segmentation-tool/blob/main/video/Recording%202023-02-14%20at%2012.20.46.gif
