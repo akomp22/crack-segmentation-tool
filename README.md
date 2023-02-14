@@ -68,6 +68,19 @@ The app designed to segment images from a specific folder. After segmentation JS
 Note: if crack edges have good visibility, the crack track can be made rough. You can always refine the crack track by decreasing image crop downsample factor or other parameters
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/7.gif)
 
+#### Crack edges retrieving
+1. Go to Segmentation Tab
+2. Select filter size. The filter size defines how far from the retrieved crack track crack edges can be found  
+3. Press "Edge mask"
+4. Adjust "mu","l" and "p" parameters to get the best results
+5. Press "Edge tracks" button
+6. To display the retrived crack conturs in ful screen mode press "Edge tracks full screen"
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/8.gif)
+
+#### Save segment
+You can repate this steps multiple times until you get desired results. After thet you can press "save segment" button to check created segmentation mask. After you saved a segment you can create another segment on the same image by repeating the described procedure. Alternativaly you can go to "Add segment manually" tab, and save a segment created in this tab. After all crack segments are added to segmentation mask, you can go to the "Save annotation tab" to check and save annotations. After pressing the "Save annotation" button, a file with the same name as the processed image and with JSON extension is created. This file contain list of pixels postions that was inside saved segments. On instruction on how to read this file in your python code refer to "check annotation.ipynb" file of this repository.
+
+#### Add segment manually.
 
 
 
