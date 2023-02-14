@@ -1,3 +1,3 @@
 # Crack segmentation tool
-1
-## sdfslkdmfsdklf
+
+The tool designed to create pixel-wise labaling of images of cracks. It was developed as
