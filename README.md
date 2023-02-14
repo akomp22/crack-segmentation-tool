@@ -51,7 +51,22 @@ The app designed to segment images from a specific folder. After segmentation JS
 2. Press "check cake wavelet" to display the wavelet
 3. Press "select crack point to check width" to select middle point of a crack with representative crack width. Press "Update" to display crack middle-point
 4. Compare cake wavelet and crack middlepoint. You want to design wavalet so that the width of its bright middle region close to width of a crack
-5. ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/5.gif)
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/5.gif)
+
+#### Creat process and check orientation scores
+1. Press "update OS"
+2. Press "Update cost"
+3. Adjust cost parameters to get the best crack response on the projection displayed
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/6.gif)
+
+#### Crack track
+1. Press "crack track" to run the crack tracking algorithm
+2. Description of g11, g22 and g33 parameters are given in [1]
+3. "Track width" and "Track color" regulates only visualisation of the track
+4. Press "Update track display"
+5. If you want to check the retrieved crack track you can use "Track full screen" button
+Note: if crack edges have good visibility, the crack track can be made rough. You can always refine the crack track by decreasing image crop downsample factor or other parameters
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/7.gif)
 
 
 
