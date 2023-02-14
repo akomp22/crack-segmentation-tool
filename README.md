@@ -8,7 +8,7 @@ The segmentation process consists of few main steps:
 4. Pixels between crack edges are marked as crack pixels.
 
 The tool can be used in two ways. 
- - As an app with a graphical user interface is develope (see tuturial bellow)
+ - As an app with a graphical user interface (see tuturial bellow)
  - As python functions (see file Examples.ipynb)
 
 ## App tuturial
