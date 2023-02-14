@@ -55,7 +55,7 @@ The app designed to segment images from a specific folder. After segmentation JS
 5. Indicetion of the coped image size below the "Update croped image" button helps you to estimate processing time (having some experience with it)
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/gif/4.gif)
 
-#### Design wavelet to create orientation scores (modified version of the croped image) and compare with crack
+#### (Optional) Design wavelet to create orientation scores (modified version of the croped image) and compare with crack
 1. Descriptio of paramters and they influence on the cake wavelet can be found in [2](reference to be added)
 2. Press "check cake wavelet" to display the wavelet
 3. Press "select crack point to check width" to select middle point of a crack with representative crack width. Press "Update" to display crack middle-point
