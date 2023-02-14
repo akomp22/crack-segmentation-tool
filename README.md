@@ -21,17 +21,20 @@ The app designed to segment images from a specific folder. After segmentation JS
 
 #### Start the tool
 1. Clone the repository or download archive and unzip it on your local machine. Run the app.py python script
-![](
 
 https://user-images.githubusercontent.com/67578288/218792802-00e1ac93-f9ed-483e-94e9-2aacd61291ae.mp4
 
-)
 
 #### Start segmentation
 1. Enter path to a folder that contain images you want to segment. 
 2. Press "Start"
 3. If at anny time during segmentation you decide to skip the image press "Skip" button. The empty annotation file will be saved.
-![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/2.mp4)
+
+
+
+https://user-images.githubusercontent.com/67578288/218792971-6a567cc5-1e13-4038-9f94-e90cbb914f1c.mp4
+
+
 
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
@@ -41,7 +44,8 @@ https://user-images.githubusercontent.com/67578288/218792802-00e1ac93-f9ed-483e-
 5. Press right mouse button to undo previouse point selection
 6. Choose two points on image (crack tips)
 7. Press ESC to end selection
-![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/3.mp4)
+
+
 
 #### Crop image around crack
 1. Choose "Dark crack" if crack is darker then background and vice versa
