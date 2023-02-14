@@ -21,7 +21,11 @@ The app designed to segment images from a specific folder. After segmentation JS
 
 #### Start the tool
 1. Clone the repository or download archive and unzip it on your local machine. Run the app.py python script
-![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/1.mp4)
+![](
+
+https://user-images.githubusercontent.com/67578288/218792802-00e1ac93-f9ed-483e-94e9-2aacd61291ae.mp4
+
+)
 
 #### Start segmentation
 1. Enter path to a folder that contain images you want to segment. 
