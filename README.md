@@ -15,7 +15,7 @@ The tool can be used in two ways.
  - As an app with a graphical user interface (see tuturial bellow)
  - As python functions (see file Examples.ipynb)
 
-The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "check annotetions.ipynb" shows how to read annotation JSON file.
+The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "check annotetions.ipynb" shows how to read annotation JSON files.
 
 ## App tuturial
 
