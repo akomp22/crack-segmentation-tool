@@ -32,7 +32,7 @@ If you use this code in your own work please cite our paper:
 ## App tuturial
 
 #### Start the tool
-1. Clone the repository or download archive and unzip it on your local machine. Run the app.py python script
+1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script (video shows app.py instead)
 
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/1.gif)
 
