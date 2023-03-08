@@ -19,7 +19,12 @@ The app designed to segment images from a specific folder. After segmentation JS
 ## Specific dependencies
 - python 3.9.15
 - agd
-- hfm 0.2.13 
+- hfm 0.2.13 (https://github.com/Mirebeau/HamiltonFastMarching)
+
+to install hfm library:
+```console
+conda install -c agd-lbr hfm=0.2.13
+```
 
 ## App tuturial
 
