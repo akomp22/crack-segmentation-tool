@@ -16,6 +16,10 @@ The tool can be used in two ways.
  - As python functions (see file Examples.ipynb)
 
 The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "check annotetions.ipynb" shows how to read annotation JSON files.
+## Specific dependencies
+- python 3.9.15
+- agd
+- hfm 0.2.13 
 
 ## App tuturial
 
