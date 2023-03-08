@@ -25,6 +25,9 @@ to install hfm library:
 ```console
 conda install -c agd-lbr hfm=0.2.13
 ```
+## Cite
+If you use this code in your own work please cite our paper:
+[1] "To be added"
 
 ## App tuturial
 
