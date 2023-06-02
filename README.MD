@@ -5,9 +5,10 @@ The presented crack segmentation tool is designed to generate pixel-wise labalin
 The segmentation process consists of few main steps:
 1. Manual selection of two crack end-points
 2. Finding of a crack path between the selected points
-3. Crack edges along the retrieved path are found
-4. Also crack segment can be added by manually drawing crack contur
-5. Pixels between crack edges are marked as crack pixels.
+3. Finding of crack edges along the retrieved path
+4. Pixels between crack edges are marked as crack pixels.
+5. Optionally, crack segment can be added by manually drawing crack contur
+
 
 The description of the algorithm can be found in [1] (conference paper to be added)
 
