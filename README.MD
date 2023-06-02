@@ -16,7 +16,8 @@ The tool can be used in two ways.
  - As an app with a graphical user interface (see tuturial bellow)
  - As python functions (see file Examples.ipynb)
 
-The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "check annotetions.ipynb" shows how to read annotation JSON files.
+The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "generate_mask_from_json.ipynb" shows how to read annotation JSON files.
+If parameters are set properly, it should take less the a minute to segment single image. If it takes longer, consider to increase downsampling factor (see explanations below).
 ## Specific dependencies
 - python 3.9.15
 - agd
