@@ -64,7 +64,7 @@ If you use this code in your own work please cite our paper:
 #### Crop image around crack
 1. Choose "Dark crack" if crack is darker then background and vice versa
 2. Only one color chennel should be chosen for processing. Choose the one that gives the most of the the contrast
-3. Downsampling reduces image size to reduce processing time. To course image also reduces tracking accuracy.
+3. Downsampling reduces image size to reduce processing time. Too course image also reduces tracking accuracy.
 4. X and Y margins determine offset of cropped image from the selected points. Choose it to fit crack into cropped image and not to make image size to big
 5. Indicetion of the coped image size below the "Update croped image" button helps you to estimate processing time (having some experience with it)
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/gif/4.gif)
