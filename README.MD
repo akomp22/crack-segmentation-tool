@@ -2,6 +2,10 @@
 
 The presented crack annotation tool is designed to generate pixel-wise labaling of images of cracks in a semi-automatic manner. It also allows to draw bounding boxes around objects. Its main goal is to simplify creation of a dataset to train deep learning algorithm for crack segmentation that often done fully manually. The mathematical underpin for the segmentation algorithm was developed by Remco Duits(https://www.win.tue.nl/~rduits/) and group of mathematical image analysis of Eindhoven University of Technology.
 
+The annotation can be made in one of two ways or both:
+1. Bounding box annotation
+2. Crack Segmentation
+
 The segmentation process consists of few main steps:
 1. Manual selection of two crack end-points
 2. Finding of a crack path between the selected points
@@ -17,19 +21,20 @@ The tool can be used in two ways.
  - As an app with a graphical user interface (see tuturial bellow)
  - As python functions (see file Examples.ipynb)
 
-The app designed to segment images from a specific folder. After segmentation JSON files for each image will be created. "generate_mask_from_json.ipynb" shows how to read annotation JSON files.
-If parameters are set properly, it should take less the a minute to segment single image. If it takes longer, consider to increase downsampling factor (see explanations below).
+The app is designed to creat annoation JSON files for images in a specified folder. "generate_mask_from_json.ipynb" file in this repository shows how to read annotations from the JSON files.
+If parameters are set properly, it should take less then a minute to segment single crack on an image. If it takes longer, consider to increase downsampling factor (see explanations below).
 ## Specific dependencies
-- python 3.9.15
+- python 3.9.15 (Not tested on later versions)
 - agd
 - hfm 0.2.13 (https://github.com/Mirebeau/HamiltonFastMarching)
 
-to install hfm library:
+to install libraries:
 ```console
+conda install agd
 conda install -c agd-lbr hfm=0.2.13
 ```
 ## Cite
-If you use this code in your own work please cite our paper:
+If you use this code ot the app in your own work please cite our paper:
 Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Con-ference on  Computing in Civil  and Building Engineer-ing (accepted for publication)
 
 ## App tuturial
