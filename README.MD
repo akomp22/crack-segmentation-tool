@@ -1,6 +1,6 @@
-# Crack segmentation tool
+# Crack annotation tool
 
-The presented crack segmentation tool is designed to generate pixel-wise labaling of images of cracks in a semi-automatic manner. Its main goal is to simplify creation of a dataset to train deep learning algorithm for crack segmentation that often done fully manually. The mathematical underpin for the algorithm was developed by Remco Duits(https://www.win.tue.nl/~rduits/) and group of mathematical image analysis of Eindhoven University of Technology.
+The presented crack annotation tool is designed to generate pixel-wise labaling of images of cracks in a semi-automatic manner. It also allows to draw bounding boxes around objects. Its main goal is to simplify creation of a dataset to train deep learning algorithm for crack segmentation that often done fully manually. The mathematical underpin for the segmentation algorithm was developed by Remco Duits(https://www.win.tue.nl/~rduits/) and group of mathematical image analysis of Eindhoven University of Technology.
 
 The segmentation process consists of few main steps:
 1. Manual selection of two crack end-points
@@ -10,7 +10,8 @@ The segmentation process consists of few main steps:
 5. Optionally, crack segment can be added by manually drawing crack contur
 
 
-The description of the algorithm can be found in [1] (conference paper to be added)
+The description of the algorithm can be found in our paper:
+Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Con-ference on  Computing in Civil  and Building Engineer-ing (accepted for publication)
 
 The tool can be used in two ways. 
  - As an app with a graphical user interface (see tuturial bellow)
@@ -29,7 +30,7 @@ conda install -c agd-lbr hfm=0.2.13
 ```
 ## Cite
 If you use this code in your own work please cite our paper:
-[1] "To be added"
+Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Con-ference on  Computing in Civil  and Building Engineer-ing (accepted for publication)
 
 ## App tuturial
 
