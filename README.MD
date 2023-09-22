@@ -76,14 +76,12 @@ Now you can select another image to continue annotationg bounding box or to go t
 ## "Tracking" Tab
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
-2. Adjust Adjust "Image size" to fit the selection window fit in your screen. 
+2. Adjust "Image size" to fit the selection window to your screen. 
 3. Use the mouse wheel to zoom in/out around current cursor position (to drag image use sequentially zoom in/out and move cursor).
 4. Press left mouse button to select point.
 5. Press right mouse button to undo previouse point selection
 6. Choose two points on image (crack tips)
 7. Press ESC to end selection
-
-![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/2.gif)
 
 #### Crop image around crack
 1. Choose "Dark crack" if crack is darker then background and vice versa
@@ -98,7 +96,6 @@ Now you can select another image to continue annotationg bounding box or to go t
 3. Press "select crack point to check width" to select middle point of a crack with representative crack width. Press "Update" to display crack middle-point
 4. Compare cake wavelet and crack middlepoint. You want to design wavalet so that the width of its bright middle region close to width of a crack
 
-
 #### Creat process and check orientation scores
 1. Press "update OS"
 2. Press "Update cost"
@@ -111,6 +108,10 @@ Now you can select another image to continue annotationg bounding box or to go t
 4. Press "Update track display"
 5. If you want to check the retrieved crack track you can use "Track full screen" button
 Note: if crack edges have good visibility, the crack track can be made rough. You can always refine the crack track by decreasing image crop downsample factor or other parameters
+
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/3.gif)
+
+## "Segmentation" Tab
 
 #### Crack edges retrieving
 1. Go to Segmentation Tab
