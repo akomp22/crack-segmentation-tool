@@ -73,6 +73,9 @@ Now you can select another image to continue annotationg bounding box or to go t
 5. To delate bounding box from the annotation file press "Clear Boxes" button
 6. To delate annotated segmentations from the annotation file press "Clear segmenattions" button
 
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/2.gif)
+
+
 ## "Tracking" Tab
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
