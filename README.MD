@@ -46,17 +46,34 @@ preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 #### Run the tool
 1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script
 
-
+### "Select Image" Tab
 #### Start annotation
 1. Enter path to a folder that contain images you want to segment. 
 2. Press "Select Folder"
+
 You will see a selectable list of images in the folder. If annotation file for this image exists, the annotation will be displayed.
 
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/1.gif)
 
 #### Annotate boundig box
+1. Select "Image size" parameter as adjust size of a window fro drawing
+2. Press "Draw Box" button to open window for drawing bounding boxes
+3. Draw single bounding box
+    - Scroll mouse will to Zoom in/out image
+    - Click left mouse button to select first corner of a bounding box
+    - Click left mouse button once again to select oposite corner of the bounding box
+    - Press right mouse button to undo previous selection
+    - Press Esc to escape the drawing window
+3. Select a positive integer in the "Class" window number to indicated the calls of the bounding box which was just drawn.
+4. Press "save Box" button to save coordinates and class of the bounding box to annotation file
 
 
+Now you can select another image to continue annotationg bounding box or to go to "Tracking" Tab to annotate crack segmenation 
+
+5. To delate bounding box from the annotation file press "Clear Boxes" button
+6. To delate annotated segmentations from the annotation file press "Clear segmenattions" button
+
+### "Tracking" Tab
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
 2. Adjust Adjust "Image size" to fit the selection window fit in your screen. 
