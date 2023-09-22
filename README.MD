@@ -52,7 +52,7 @@ preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 2. Press "Start"
 3. If at anny time during segmentation you decide to skip the image press "Skip" button. The empty annotation file will be saved.
 
-
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/mp4/1.mp4)
 
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
