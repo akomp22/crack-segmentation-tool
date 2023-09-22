@@ -44,7 +44,7 @@ preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 ## App tuturial
 
 #### Start the tool
-1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script (video shows app.py instead)
+1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script
 
 
 #### Start segmentation
