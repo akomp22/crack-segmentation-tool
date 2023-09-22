@@ -22,7 +22,7 @@ The tool can be used in two ways.
  - As an app with a graphical user interface (see tuturial bellow)
  - As python functions (see file Examples.ipynb)
 
-The app is designed to creat annoation JSON files for images in a specified folder. "generate_mask_from_json.ipynb" file in this repository shows how to read annotations from the JSON files.
+The app is designed to creat annoation JSON files for images from a specified folder. "generate_mask_from_json.ipynb" file in this repository shows how to read annotations from the JSON files.
 If parameters are set properly, it should take less then a minute to segment single crack on an image. If it takes longer, consider to increase downsampling factor (see explanations below).
 ## Specific dependencies
 - python 3.9.15 (Not tested on later versions)
@@ -35,8 +35,11 @@ conda install agd
 conda install -c agd-lbr hfm=0.2.13
 ```
 ## Cite
-If you use this code ot the app in your own work please cite our paper:
-Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Con-ference on  Computing in Civil  and Building Engineer-ing (accepted for publication)
+If you use this code or the app in your own work please cite our paper:
+
+[1] Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Conference on  Computing in Civil  and Building Engineering (accepted for publication)
+
+preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 
 ## App tuturial
 
