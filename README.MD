@@ -109,3 +109,6 @@ You can repate this steps multiple times until you get desired results. After th
 3. Crack contur consists of parts. Each time you press left mouse button (LMB), new part of contur is started. Hold left mouse button and move cursor to draw a contur part. To fix the drawn part you can release the LMB. If you press LMB again it will start new part of contur, connecting end of previous part with the beginning of new part by a straight line. 
 4. Press right mouse button to erase previous contur part.
 5. Press Esc to exit the drawing window. End of the last contur part and beggining of the first contur part will be connected byt a straight line to close a contur.
+
+
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/screen-capture.webm)
