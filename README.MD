@@ -43,16 +43,19 @@ preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 
 ## App tuturial
 
-#### Start the tool
+#### Run the tool
 1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script
 
 
-#### Start segmentation
+#### Start annotation
 1. Enter path to a folder that contain images you want to segment. 
-2. Press "Start"
-3. If at anny time during segmentation you decide to skip the image press "Skip" button. The empty annotation file will be saved.
+2. Press "Select Folder"
+You will see a selectable list of images in the folder. If annotation file for this image exists, the annotation will be displayed.
 
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/1.gif)
+
+#### Annotate boundig box
+
 
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
@@ -63,6 +66,7 @@ preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 6. Choose two points on image (crack tips)
 7. Press ESC to end selection
 
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/2.gif)
 
 #### Crop image around crack
 1. Choose "Dark crack" if crack is darker then background and vice versa
