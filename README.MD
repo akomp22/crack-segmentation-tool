@@ -41,12 +41,12 @@ If you use this code or the app in your own work please cite our paper:
 
 preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
 
-## App tuturial
+# App tuturial
 
 #### Run the tool
 1. Clone the repository or download archive and unzip it on your local machine. Run the crack_tool.py python script
 
-### "Select Image" Tab
+## "Select Image" Tab
 #### Start annotation
 1. Enter path to a folder that contain images you want to segment. 
 2. Press "Select Folder"
@@ -73,7 +73,7 @@ Now you can select another image to continue annotationg bounding box or to go t
 5. To delate bounding box from the annotation file press "Clear Boxes" button
 6. To delate annotated segmentations from the annotation file press "Clear segmenattions" button
 
-### "Tracking" Tab
+## "Tracking" Tab
 #### Select crack endpoints
 1. Press "Select Crack End-Points" to open window for point selection. 
 2. Adjust Adjust "Image size" to fit the selection window fit in your screen. 
