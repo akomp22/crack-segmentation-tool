@@ -16,7 +16,7 @@ The segmentation process consists of few main steps:
 
 The description of the algorithm can be found in our paper:
 
-Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Conference on  Computing in Civil  and Building Engineering (accepted for publication)
+[1] Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Conference on  Computing in Civil  and Building Engineering (accepted for publication)
 
 The tool can be used in two ways. 
  - As an app with a graphical user interface (see tuturial bellow)
