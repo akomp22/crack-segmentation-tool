@@ -125,9 +125,12 @@ Note: if crack edges have good visibility, the crack track can be made rough. Yo
 6. To display the retrived crack conturs in ful screen mode press "Edge tracks full screen"
 
 
-#### Save segment and annotation
+#### Save segment
 You can repate this steps multiple times until you get desired results. After thet you can press "save segment" button to check created segmentation mask. After you saved a segment you can create another segment on the same image by repeating the described procedure. Alternativaly you can go to "Add segment manually" tab, and save a segment created in this tab. After all crack segments are added to segmentation mask, you can go to the "Save annotation tab" to check and save annotations. After pressing the "Save annotation" button, a file with the same name as the processed image and with JSON extension is created. This file contain list of pixels postions that was inside saved segments. On instruction on how to read this file in your python code refer to "check annotation.ipynb" file of this repository.
 
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/4.gif)
+
+## "Add segment manually" Tab
 #### Add segment manually.
 1. You can also create a crack segment manually by drawing crack conturs. For this go to "Add segment manually" tab and press "Draw segment"
 2. Use mouse wheel for zoom in/out
@@ -135,5 +138,6 @@ You can repate this steps multiple times until you get desired results. After th
 4. Press right mouse button to erase previous contur part.
 5. Press Esc to exit the drawing window. End of the last contur part and beggining of the first contur part will be connected byt a straight line to close a contur.
 
+![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/5.gif)
 
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/screen-capture.webm)
