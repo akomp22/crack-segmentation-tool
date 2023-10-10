@@ -16,7 +16,9 @@ The segmentation process consists of few main steps:
 
 The description of the algorithm can be found in our paper:
 
-[1] Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Conference on  Computing in Civil  and Building Engineering (accepted for publication)
+[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., & Snijder, H. H. (2022, October). Segmentation Tool for Images of Cracks. In International Conference on Computing in Civil and Building Engineering (pp. 93-110). Cham: Springer International Publishing.
+
+Preprint also available at: https://www.win.tue.nl/~rduits/CD.pdf 
 
 The tool can be used in two ways. 
  - As an app with a graphical user interface (see tuturial bellow)
@@ -37,9 +39,7 @@ conda install -c agd-lbr hfm=0.2.13
 ## Cite
 If you use this code or the app in your own work please cite our paper:
 
-[1] Kompanets, A.; Duits, R.; Leonetti, D.; van den Berg, N.;  Snijder, H. B (2023) Segmentation tool for images of cracks. Proceedings of the 20th International Conference on  Computing in Civil  and Building Engineering (accepted for publication)
-
-preprint available at: https://www.win.tue.nl/~rduits/CD.pdf
+[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., & Snijder, H. H. (2022, October). Segmentation Tool for Images of Cracks. In International Conference on Computing in Civil and Building Engineering (pp. 93-110). Cham: Springer International Publishing.
 
 # App tuturial
 
