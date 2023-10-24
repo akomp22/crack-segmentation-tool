@@ -55,7 +55,7 @@ You will see a selectable list of images in the folder. If annotation file for t
 
 ![](https://github.com/akomp22/crack-segmentation-tool/blob/main/video/gif/1.gif)
 
-#### Annotate boundig box
+#### Annotate boundig box (Optional)
 1. Select "Image size" parameter to adjust size of a window for drawing
 2. Press "Draw Box" button to open window for drawing bounding boxes
 3. Draw single bounding box
