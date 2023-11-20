@@ -16,7 +16,7 @@ The segmentation process consists of a few main steps:
 
 The description of the algorithm can be found in our paper:
 
-[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., Snijder, H.H. (2023). Segmentation Tool for Images of Cracks. In: Skatulla, S., Beushausen, H. (eds) Advances in Information Technology in Civil and Building Engineering. ICCCBE 2022. Lecture Notes in Civil Engineering, vol 357. Springer, Cham. https://doi.org/10.1007/978-3-031-35399-4_8
+[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., Snijder, H.H. (2024). Segmentation Tool for Images of Cracks. In: Skatulla, S., Beushausen, H. (eds) Advances in Information Technology in Civil and Building Engineering. ICCCBE 2022. Lecture Notes in Civil Engineering, vol 357. Springer, Cham. https://doi.org/10.1007/978-3-031-35399-4_8
 
 Preprint also available at: https://www.win.tue.nl/~rduits/CD.pdf 
 
@@ -39,7 +39,7 @@ conda install -c agd-lbr hfm=0.2.13
 ## Cite
 If you use this code or the app in your own work please cite our paper:
 
-[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., Snijder, H.H. (2023). Segmentation Tool for Images of Cracks. In: Skatulla, S., Beushausen, H. (eds) Advances in Information Technology in Civil and Building Engineering. ICCCBE 2022. Lecture Notes in Civil Engineering, vol 357. Springer, Cham. https://doi.org/10.1007/978-3-031-35399-4_8
+[1] Kompanets, A., Duits, R., Leonetti, D., van den Berg, N., Snijder, H.H. (2024). Segmentation Tool for Images of Cracks. In: Skatulla, S., Beushausen, H. (eds) Advances in Information Technology in Civil and Building Engineering. ICCCBE 2022. Lecture Notes in Civil Engineering, vol 357. Springer, Cham. https://doi.org/10.1007/978-3-031-35399-4_8
 
 # App tutorial
 
